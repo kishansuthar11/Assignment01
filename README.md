@@ -234,11 +234,6 @@ To fix the error, you need to convert the integer 99 to a string before concaten
 With this modification, the integer 99 will be converted to the string '99', allowing the expression to concatenate three strings ('I have eaten ', '99', and ' burritos.') together successfully.
 
 
-
-
-
-
-
 # Question 11:
 # Function to calculate the sum of two numbers
 
@@ -255,6 +250,11 @@ sum_result = calculate_sum(num1, num2)
 # Print the result
 print("The sum of", num1, "and", num2, "is:", sum_result)
 
+output:
+Enter the first number: 11
+Enter the second number: 21
+The sum of 11.0 and 21.0 is: 32.0
+
 
 # Question 12
 # Take user's name as input
@@ -262,6 +262,10 @@ name = input("Enter your name: ")
 
 # Print greeting message
 print("Hello,", name + "! Welcome to our program.")
+
+output:
+Enter your name: Kishan Suthar
+Hello, Kishan Suthar! Welcome to our program.
 
 
 #Question 13
@@ -274,6 +278,11 @@ area = length * width
 
 # Print the result
 print("The area of the rectangle with length", length, "and width", width, "is:", area)
+
+output:
+Enter the length of the rectangle: 6
+Enter the width of the rectangle: 5
+The area of the rectangle with length 6.0 and width 5.0 is: 30.0
 
 
 #Question 14
@@ -290,6 +299,10 @@ elif age < 20:
 else:
     print("You are an adult.")
 
+output: 
+Enter your age: 24
+You are an adult.
+
 
 #Question 15
 # Take input for Celsius temperature
@@ -300,6 +313,10 @@ fahrenheit = (celsius * 9/5) + 32
 
 # Print the result
 print("Temperature in Fahrenheit:", fahrenheit)
+
+output: 
+Enter the temperature in Celsius: 36
+Temperature in Fahrenheit: 96.8
 
 
 #Question 16
@@ -315,6 +332,10 @@ area = pi * (radius ** 2)
 # Print the result
 print("The area of the circle with radius", radius, "is:", area)
 
+output: 
+Enter the radius of the circle: 6
+The area of the circle with radius 6.0 is: 113.04
+
 
 #Question 17
 # Take input for the first number
@@ -329,6 +350,10 @@ maximum = max(num1, num2)
 # Print the result
 print("The maximum of", num1, "and", num2, "is:", maximum)
 
+output:
+Enter the first number: 18
+Enter the second number: 7
+The maximum of 18.0 and 7.0 is: 18.0
 
 
 #Question 18
@@ -344,6 +369,10 @@ product = num1 * num2
 # Print the result
 print("The product of", num1, "and", num2, "is:", product)
 
+output:
+Enter the first number: 11
+Enter the second number: 7
+The product of 11.0 and 7.0 is: 77.0
 
 
 #Question 19
@@ -357,6 +386,9 @@ elif number < 0:
     print("The number entered is negative.")
 else:
     print("The number entered is zero.")
+output: 
+Enter a number: -76
+The number entered is negative.
 
     
 
